@@ -4,7 +4,7 @@ from library import * # Import the library.py
 
 # Class MainHandler
 class MainHandler():
-    def __init__(self):
+    def __init__(self): # Define Constructor Function
         self.lib = Library()
         self.lib.student = raw_input("What is your name?") # Prompting The User
         self.lib.grade_one = int(raw_input("What is your first grade?")) # Prompting The User
